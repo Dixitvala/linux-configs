@@ -1,0 +1,17 @@
+# Debian 12 (Bookworm) main repository
+deb http://deb.debian.org/debian/ bookworm main contrib non-free
+
+# Security updates
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free
+
+# Updates for Debian 12
+deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free
+
+# Backports
+deb http://deb.debian.org/debian/ bookworm-backports main contrib non-free
+
+# Indian mirror for Debian 12 (Bookworm)
+deb http://in.archive.ubuntu.com/debian/ bookworm main contrib non-free
+deb http://in.archive.ubuntu.com/debian/ bookworm-updates main contrib non-free
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free
+deb http://in.archive.ubuntu.com/debian/ bookworm-backports main contrib non-free
